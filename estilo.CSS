@@ -4,12 +4,12 @@ body{
     font-family: 'Libre Baskerville', serif;                                                                                                                                                                                                            
 }
 
-th, td {
-        border: 4px solid black;
-        border-radius: 10px;
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace;
-    }
+table, th, td {
+    border: 4px solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+}
 
 #form{
     left: 44%;
