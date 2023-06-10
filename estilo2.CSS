@@ -7,7 +7,7 @@
     grid-template-columns: 30% 30% 30%;
     /* gap: 10%; */
     /* padding: 85px 14%; */
-    font-size: 20px;
+    font-size: 15px;
     /* border-radius: 10%; */
     /* margin-left: 2%; */
     width: 100%;
@@ -24,41 +24,138 @@ body{
     background-color: hsl(218, 13%, 12%)
 }
 
-#fonth1{
+#fontcursiva{
     font-family: 'Lobster', cursive;
+    font-size: 35px;
+}   
+
+.menuNavL{
+    padding-top: 1%;
+    float: right;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px 24px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(175, 58, 58);
+    position:relative;
+    border-radius: 12px;
+    text-decoration: none;
 }
+
+.clasea{
+    font-family: verdama; 
+    color: whitesmoke; 
+    padding: 9px; 
+    text-decoration: none;
+    transition: 1s;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clasea:hover{
+    background-color: #0000007a;
+    color: white;
+    font-size: 20px;
+}
+
 
 .divmu{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
 }
 
 .arti1{
     text-align: center;
     border: 2px solid black;
-    padding: 22%;
+    padding: 3%;
     border-radius: 15px;
     background-color: rgb(175, 58, 58);
-    box-shadow: 0 0 5px rgb(163, 158, 158, 0.665);
+    box-shadow: 0 0 25px rgb(163, 158, 158, 0.665);
     
 }
 
 .arti2{
     text-align: center;
     border: 2px solid black;
-    padding: 22%;
+    padding: 3%;
     border-radius: 15px;
     background-color: rgb(175, 58, 58);
-    box-shadow: 0 0 5px rgb(163, 158, 158, 0.665);
+    box-shadow: 0 0 25px rgb(163, 158, 158, 0.665);
 }
 
 .arti3{
     text-align: center;
     border: 2px solid black;
-    padding: 22%;
+    padding: 3%;
     border-radius: 15px;
     background-color: rgb(175, 58, 58);
-    box-shadow: 0 0 5px rgb(163, 158, 158, 0.665);
+    box-shadow: 0 0 25px rgb(163, 158, 158, 0.665);
 }
+
+.redondo{
+    background-color: rgb(194, 33, 33);
+    border-radius: 10px;
+}
+
+.vid{
+    font-family: verdama; 
+    color: whitesmoke; 
+    padding: 9px; 
+    text-decoration: none;
+    transition: 1s;
+    font-size: 13px;
+    transition: font-size 0.3s ease;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 3%;
+}
+
+.vid:hover{
+    background-color: #0000007a;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+#jona{
+    background-color: rgb(145, 25, 25);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 20, 20, 0.781);
+    width: 29%;
+    margin-left: 34%;
+}
+
+#poemarios{
+    background-color: rgb(145, 25, 25);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 20, 20, 0.781);
+    width: 48%;
+    margin-left: 27%;
+    font-size: 20px;
+}
+
+.poema{
+    font-family: verdama; 
+    color: whitesmoke; 
+    padding: 9px; 
+    text-decoration: none;
+    transition: 1s;
+    font-size: 13px;
+    transition: font-size 0.3s ease;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.poema:hover{
+    background-color: #0000007a;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+}
+

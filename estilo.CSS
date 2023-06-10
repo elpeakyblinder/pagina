@@ -83,6 +83,10 @@ table, th, td {
     padding: 9px; 
     text-decoration: none;
     transition: 1s;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -204,13 +208,6 @@ margin-left: 25%;
     font-size: 25px;
 }
 
-.clasea{
-    font-size: 16px;
-    transition: font-size 0.3s ease;
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 .clasea:hover {
     font-size: 20px;
 }
@@ -239,6 +236,7 @@ margin-left: 25%;
     padding: 16%;
     border-radius: 15px;
     background-color: #00ffff78;
+    box-shadow: 0 0 50px rgba(22, 56, 245, 0.9);
 }
 
 .imgato{

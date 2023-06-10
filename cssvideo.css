@@ -14,6 +14,85 @@ body {
     margin: 0 auto;
     background-color: rgb(175, 58, 58);
     padding: 20px;
-    box-shadow: 0 0 5px rgba(163, 158, 158, 0.644);
+    box-shadow: 0 0 30px rgba(163, 158, 158, 0.644);
     text-align: center;
+    margin-top: 2%;
+}
+
+.menuNavL{
+    padding-top: 1%;
+    float: right;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px 4px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(175, 58, 58);
+    position:relative;
+    border-radius: 12px;
+}
+
+.clasea{
+    font-family: verdama; 
+    color: whitesmoke; 
+    padding: 9px; 
+    text-decoration: none;
+    transition: 1s;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clasea:hover{
+    background-color: #0000007a;
+    color: white;
+    font-size: 20px;
+}
+
+.ache1{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 43px;
+    width: 143px;
+    background-size: 142px 45px;
+}
+
+.none{
+    text-decoration: none;
+}
+
+.chidote{
+    font-family: verdama; 
+    color: whitesmoke; 
+    padding: 9px; 
+    text-decoration: none;
+    transition: 1s;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.chidote:hover{
+    background-color: #0000007a;
+    color: white;
+    font-size: 20px;
+}
+
+.chidote1{
+    padding-top: 1%;
+    float: right;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px 4px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(175, 58, 58);
+    position:relative;
+    border-radius: 12px;
 }
